@@ -1,0 +1,66 @@
+/* Write your CSS here */
+.coin-container {
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background: linear-gradient(to right, #f9d423, #e2a139);
+}
+.main-container {
+  background-color: #fff;
+  min-height: 400px;
+  max-height: 550px;
+  max-width: 400px;
+  min-width: 350px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 10px;
+  border-radius: 12px;
+}
+
+.main-heading {
+  font-family: 'Roboto';
+  color: #e2a139;
+  margin-bottom: unset;
+  font-weight: 600;
+}
+
+.sub-heading {
+  color: #334155;
+  margin-bottom: unset;
+  font-weight: 500;
+}
+.heads {
+  height: 200px;
+}
+.toss-coin {
+  padding: 15px 30px;
+  background-color: #f9d423;
+  color: #a35200;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+  font-family: 'Roboto';
+  font-weight: bold;
+  cursor: pointer;
+}
+.calculations {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.calculations p {
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-bottom: unset;
+  color: #475569;
+}
+@media screen and (max-width: 768px) {
+  .calculations {
+    flex-direction: column;
+  }
+}
